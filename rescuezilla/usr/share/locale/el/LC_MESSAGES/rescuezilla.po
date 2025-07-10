@@ -1,0 +1,961 @@
+# Greek translation of Rescuezilla
+# Copyright (C) 2021
+# This file is distributed under the same license as the PACKAGE package.
+# tkatsageorgis
+# Submitted at: https://github.com/rescuezilla/rescuezilla/issues/171
+#
+# Thanassis Katsageorgis <tkatsageorgis@gmail.com>, 2021, 2022, 2025.
+# Shasheen Ediriweera <shasheene@gmail.com>, 2023.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-10-25 20:36+1030\n"
+"PO-Revision-Date: 2025-03-23 19:06+0000\n"
+"Last-Translator: Thanassis Katsageorgis <tkatsageorgis@gmail.com>\n"
+"Language-Team: Greek <https://hosted.weblate.org/projects/rescuezilla/"
+"rescuezilla/el/>\n"
+"Language: el\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.11-dev\n"
+
+msgid "Welcome"
+msgstr "Καλωσήλθατε"
+
+msgid "Select an Option"
+msgstr "Επιλέξτε"
+
+msgid "Easily create a backup image of your computer, or completely restore from one.  Click an option to begin:"
+msgstr "Δημιουργήστε εύκολα αντίγραφο ασφαλείας του υπολογιστή σας ή κάντε πλήρη επαναφορά από ένα ήδη υπάρχον. Κάντε μια επιλογή για να ξεκινήσετε:"
+
+msgid "Backup"
+msgstr "Αντίγραφο Ασφαλείας"
+
+msgid "Restore"
+msgstr "Επαναφορά"
+
+msgid "Verify Image"
+msgstr "Επαλήθευση Ειδώλου"
+
+msgid "Need help? Start by checking the Rescuezilla frequently asked questions, then proceed to the Rescuezilla forum."
+msgstr ""
+"Χρειάζεστε βοήθεια; Ελέγξτε πρώτα τις συνήθεις ερωτήσεις και στη συνέχεια "
+"προχωρήστε στο φόρουμ."
+
+msgid "Consider contributing $1/month on the crowdfunding website Patreon so Rescuezilla can continue to be developed."
+msgstr ""
+"Εξετάστε το ενδεχόμενο να συνεισφέρετε $1/μήνα στον ιστότοπο του Patreon, "
+"ώστε το Rescuezilla να μπορεί να συνεχίσει να αναπτύσσεται."
+
+msgid "Back"
+msgstr "Πίσω"
+
+msgid "Next >"
+msgstr "Επόμενο >"
+
+msgid "Please wait…"
+msgstr "Παρακαλώ περιμένετε…"
+
+msgid "Identifying disk drives…"
+msgstr "Αναγνώριση μονάδων δίσκου…"
+
+#, python-brace-format
+msgid "Unmounting: {path}"
+msgstr "Λειτουργία μη προσβασιμότητας αρχείων: {path}"
+
+#, python-brace-format
+msgid "Unable to unmount {path}"
+msgstr "Δεν είναι δυνατή η λειτουργία μη προσβασιμότητας αρχείων {path}"
+
+#, python-brace-format
+msgid "Running: {app}"
+msgstr "Εκτέλεση: {app}"
+
+#, python-brace-format
+msgid "Running {app} on {device}"
+msgstr "Εκτέλεση {app} σε {device}"
+
+msgid "Failed to run command: "
+msgstr "Αποτυχία εκτέλεσης εντολής: "
+
+msgid "Error querying drives: "
+msgstr "Σφάλμα ερωτήματος οδηγών: "
+
+msgid "Clone"
+msgstr "Κλώνος"
+
+msgid "Step 1: Understanding Cloning"
+msgstr "Βήμα 1: Κατανόηση της Κλωνοποίησης"
+
+msgid "Please understand how \"cloning\" differs from \"imaging\"."
+msgstr ""
+"Παρακαλώ να κατανοήσετε τη διαφορά ανάμεσα στην \"κλωνοποίηση\" και την "
+"\"απεικόνιση\"."
+
+msgid "This mode is for \"disk cloning\". Cloning means copying one drive and directly overwriting another drive. This is a direct one-step operation with no temporary storage required.\n"
+"\n"
+"Cloning is different to \"disk imaging\". Imaging means copying everything from one drive into very large files stored inside a folder on an external drive. Multiple images can be saved on the same external drive. These images can be restored back to the original disk, or to additional disks. In other words, for \"imaging\" the backup operation copies your drive to <i>files</i> that need to be stored on a drive at least temporarily before it can be restored.\n"
+"\n"
+""
+"To use the \"imaging\" wizards, click <b>Back</b> and select <b>Backup</b> or <b>Restore</b>."
+msgstr ""
+"Αυτή η λειτουργία προορίζεται για \"κλωνοποίηση δίσκων\". Κλωνοποίηση "
+"σημαίνει άμεση αντιγραφή μιας μονάδας δίσκου σε μια άλλη μονάδα δίσκου. Αυτή "
+"είναι μια άμεση λειτουργία ενός βήματος χωρίς να απαιτείται προσωρινή "
+"αποθήκευση.\n"
+"\n"
+"Η κλωνοποίηση είναι διαφορετική από την \"απεικόνιση δίσκου\". Απεικόνιση "
+"σημαίνει αντιγραφή των πάντων, από μια μονάδα δίσκου σε πολύ μεγάλα αρχεία "
+"που είναι αποθηκευμένα μέσα σε ένα φάκελο σε μια εξωτερική μονάδα δίσκου. "
+"Πολλές εικόνες μπορούν να αποθηκευτούν στην ίδια εξωτερική μονάδα δίσκου. "
+"Αυτές οι εικόνες μπορούν να αποκατασταθούν στον αρχικό δίσκο ή σε πρόσθετους "
+"δίσκους. Με άλλα λόγια, για την \"απεικόνιση\" η λειτουργία δημιουργίας "
+"αντιγράφων ασφαλείας αντιγράφει τη μονάδα δίσκου σας σε <i>αρχεία</i> που "
+"πρέπει να αποθηκευτούν σε μια μονάδα δίσκου τουλάχιστον προσωρινά για να "
+"μπορέσει να αποκατασταθεί.\n"
+"\n"
+"Για να χρησιμοποιήσετε τους οδηγούς \"απεικόνισης\", κάντε κλικ στο <b>Πίσω</"
+"b> και επιλέξτε <b>Αντίγραφο ασφαλείας</b> ή <b>Επαναφορά</b>."
+
+msgid "To begin the \"cloning\" wizard, click <b>Next</b>"
+msgstr ""
+"Για να εκκινήσετε τον οδηγό \"κλωνοποίησης\", κάντε κλικ στην επιλογή "
+"<b>Επόμενο</b>"
+
+msgid "Step 2: Select Source Drive"
+msgstr "Βήμα 2: Επιλογή μονάδας δίσκου προέλευσης"
+
+msgid "Select the <b>source drive</b> to clone."
+msgstr "Επιλέξτε τη <b>μονάδα δίσκου προέλευσης</b> για κλωνοποίηση."
+
+msgid "Select the <b>destination drive</b> to overwrite."
+msgstr "Επιλέξτε τη <b>μονάδα δίσκου προορισμού</b> για αντικατάσταση."
+
+msgid "Step 4: Select Partitions to Clone"
+msgstr "Βήμα 4: Επιλογή Διαμερισμάτων για Κλωνοποίηση"
+
+msgid "Select which partitions from the source drive to clone, and whether to overwrite the partition table. <b>Leave everything selected to completely clone the source drive to the destination drive.</b>"
+msgstr ""
+"Επιλέξτε ποια διαμερίσματα από τη μονάδα προέλευσης θα κλωνοποιήσετε και αν "
+"θα αντικαταστήσετε τον πίνακα διαμερισμάτων. <b>Αφήστε τα όλα επιλεγμένα, "
+"ώστε να κλωνοποιήσετε πλήρως τη μονάδα δίσκου προέλευσης στη μονάδα δίσκου "
+"προορισμού.</b>"
+
+msgid "Step 5: Confirm Cloning Configuration"
+msgstr "Βήμα 5: Επιβεβαίωση Διαμόρφωσης Κλωνοποίησης"
+
+msgid "Confirm the following cloning configuration."
+msgstr "Επιβεβαιώστε την ακόλουθη ρύθμιση παραμέτρων κλωνοποίησης."
+
+msgid "Cloning the following partitions"
+msgstr "Κλωνοποίηση των ακόλουθων διαμερισμάτων"
+
+msgid "To start cloning, click <b>Next</b>."
+msgstr ""
+"Για να εκκινήσετε την κλωνοποίηση, κάντε κλικ στην επιλογή <b>Επόμενο</b>."
+
+#, python-brace-format
+msgid "Are you sure you want to clone the drive to {destination_drive}? Doing so will permanently overwrite data on this drive!"
+msgstr ""
+"Είστε βέβαιοι ότι θέλετε να κλωνοποιήσετε τη μονάδα δίσκου σε "
+"{destination_drive}; Με αυτόν τον τρόπο θα αντικαταστήσετε οριστικά τα "
+"δεδομένα σε αυτόν τον δίσκο!"
+
+msgid "Step 6: Cloning Disk"
+msgstr "Βήμα 6: Κλωνοποίηση Δίσκου"
+
+msgid "Cloning the drive you selected.  This may take an hour or more depending on the speed of your computer and the amount of data."
+msgstr ""
+"Κλωνοποίηση της μονάδας δίσκου που επιλέξατε. Αυτό μπορεί να διαρκέσει μία "
+"ώρα ή περισσότερο ανάλογα με την ταχύτητα του υπολογιστή σας και το μέγεθος "
+"των δεδομένων."
+
+msgid "Summary of Clone"
+msgstr "Περίληψη Κλώνου"
+
+msgid "Clone Summary"
+msgstr "Σύνοψη Κλώνου"
+
+msgid "Confirm the clone summary."
+msgstr "Επιβεβαιώστε την περίληψη του κλώνου."
+
+msgid "Unable to shutdown Image Explorer"
+msgstr "Δεν είναι δυνατός ο τερματισμός της Εξερεύνησης Εικόνων"
+
+msgid "Step 1: Select Drive To Backup"
+msgstr "Βήμα 1: Επιλέξτε Μονάδα Δίσκου Για Αντίγραφο Ασφαλείας"
+
+msgid "Select the <b>source drive</b> that you would like to create a backup image from."
+msgstr ""
+"Επιλέξτε τη <b>μονάδα προέλευσης</b> από την οποία θα δημιουργήσετε ένα "
+"είδωλο αντιγράφου ασφαλείας."
+
+msgid "Drive"
+msgstr "Μονάδα Δίσκου"
+
+msgid "Capacity"
+msgstr "Χωρητικότητα"
+
+msgid "Drive Model"
+msgstr "Μοντέλο Μονάδας Δίσκου"
+
+msgid "Serial Number"
+msgstr "Αύξων αριθμός"
+
+msgid "Partitions"
+msgstr "Διαμερίσματα"
+
+msgid "Show hidden devices (for advanced users)"
+msgstr "Εμφάνιση κρυφών συσκευών (για προχωρημένους)"
+
+msgid "Step 2: Select Partitions to Save"
+msgstr "-Βήμα 2: Επιλέξτε Διαμερίσματα για Αποθήκευση"
+
+msgid "Select which partitions to create a backup of. <b>Leave all partitions selected if you are unsure.</b>"
+msgstr ""
+"Επιλέξτε για ποια διαμερίσματα θα δημιουργήσετε αντίγραφο ασφαλείας. "
+"<b>Αφήστε όλα τα διαμερίσματα επιλεγμένα εάν δεν είστε σίγουροι.</b>"
+
+msgid "Save"
+msgstr "Αποθήκευση"
+
+msgid "Description"
+msgstr "Περιγραφή"
+
+#, python-brace-format
+msgid "Drive {drive_number}"
+msgstr "Μονάδα Δίσκου {drive_number}"
+
+#, python-brace-format
+msgid "Partition {partition_number}"
+msgstr "Διαμέρισμα {partition_number}"
+
+msgid "Step 3: Select Destination Drive"
+msgstr "Βήμα 3: Επιλέξτε Μονάδα Προορισμού"
+
+msgid "Click on the box below to select the source drive that you would like to create a backup image from."
+msgstr "Κάντε κλικ στο ακόλουθο πλαίσιο για να επιλέξετε τη μονάδα προέλευσης από την οποία θέλετε να δημιουργήσετε αντίγραφο ασφαλείας."
+
+msgid "Connected directly to my computer"
+msgstr "Συνδεδεμένο απευθείας στον υπολογιστή μου"
+
+msgid "Shared over a network"
+msgstr "Κοινόχρηστο μέσω δικτύου"
+
+msgid "Where would you like to save the image?"
+msgstr "Πού βρίσκεται η μονάδα προορισμού;"
+
+msgid "Windows shared folder (SMB/CIFS, Samba)"
+msgstr "Κοινόχρηστος Φάκελος Windows (SMB/CIFS, Samba)"
+
+msgid "Search network"
+msgstr "Αναζήτηση δικτύου"
+
+msgid "Server"
+msgstr "Διακομιστής"
+
+msgid "Share location (UNC path)"
+msgstr "Τοποθεσία κοινής χρήσης (UNC path)"
+
+msgid "Username"
+msgstr "Όνομα Χρήστη"
+
+msgid "Password"
+msgstr "Κωδικός Πρόσβασης"
+
+msgid "Domain"
+msgstr "Τομέας"
+
+msgid "Version"
+msgstr "Έκδοση"
+
+msgid "default (Negotiate highest SMB2+ supported by client and server)"
+msgstr ""
+
+msgid "1.0 (The classic CIFS/SMBv1 protocol)"
+msgstr ""
+
+msgid "2.0 (Introduced in Vista SP1, Windows Server 2008)"
+msgstr ""
+
+msgid "2.1 (Introduced in Windows 7, Windows Server 2008R2)"
+msgstr ""
+
+msgid "3 (The SMBv3.0 protocol version and above)"
+msgstr ""
+
+msgid "3.0 (Introduced in Windows 8, Windows Server 2012)"
+msgstr ""
+
+msgid "3.0.2 (Introduced in Windows 8.1, Windows Server 2012R2)"
+msgstr ""
+
+msgid "3.1.1 (Introduced in Windows 10, Windows Server 2016)"
+msgstr ""
+
+msgid "Unspecified (Tries NFS v4.2 first, then negotiates with server down until finds a supported version)"
+msgstr ""
+
+msgid "NFSv3"
+msgstr ""
+
+msgid "NFSv4"
+msgstr ""
+
+msgid "Remote path"
+msgstr "Απομακρυσμένη διαδρομή"
+
+msgid "Exported path"
+msgstr "Διαδρομή εξαγωγής"
+
+msgid "Identity File"
+msgstr "Αναγνώριση Αρχείου"
+
+msgid "Port"
+msgstr ""
+
+msgid "Optional"
+msgstr "Προαιρετικό"
+
+msgid "Select network-shared storage location:"
+msgstr "Επιλέξτε την δικτυακή κοινόχρηστη τοποθεσία αποθήκευσης:"
+
+msgid "Select the partition where the image files will be saved to"
+msgstr "Επιλέξτε το διαμέρισμα στο οποίο θα αποθηκευτούν τα αρχεία ειδώλου"
+
+msgid "Partition"
+msgstr "Διαμέρισμα"
+
+msgid "Mounting…"
+msgstr "Δημιουγία Φακέλων και Αρχείων…"
+
+msgid "Close this popup to cancel the mount operation."
+msgstr ""
+"Κλείστε το αναδυόμενο παράθυρο για να ακυρώσετε τη λειτουργία "
+"προσβασιμότητας αρχείων."
+
+msgid "Please ensure the username, password and other fields provided are correct, and try again."
+msgstr ""
+"Βεβαιωθείτε ότι το όνομα χρήστη, ο κωδικός πρόσβασης και όλα τα πεδία που "
+"παρέχονται είναι σωστά και δοκιμάστε ξανά."
+
+msgid "Must provide either password or SSH identity file."
+msgstr "Πρέπει να δώσετε κωδικό πρόσβασης ή αρχείο ταυτότητας SSH."
+
+msgid "Scanning folder for backup images…"
+msgstr "Σάρωση φακέλου για είδωλα αντιγράφων ασφαλείας…"
+
+#, python-brace-format
+msgid "({timeout_seconds} second timeout)"
+msgstr "({timeout_seconds} διακοπή σε δευ/τα)"
+
+msgid "Close this popup to cancel scanning the selected folder and subfolders."
+msgstr ""
+"Κλείστε το αναδυόμενο παράθυρο για να ακυρώσετε τη σάρωση του επιλεγμένου "
+"φακέλου και των υποφακέλων."
+
+#, python-brace-format
+msgid "Scanning: {filename}"
+msgstr "Σάρωση: {filename}"
+
+msgid "Error processing the following images:"
+msgstr "Παρουσιάστηκε σφάλμα κατά την επεξεργασία των ακόλουθων ειδώλων:"
+
+msgid "Unable to fully process the image associated with the following partitions:"
+msgstr "Δεν είναι δυνατή η πλήρης επεξεργασία του ειδώλου που σχετίζεται με τα ακόλουθα διαμερίσματα:"
+
+msgid "Unable to fully process the following image:"
+msgstr "Δεν είναι δυνατή η πλήρης επεξεργασία του ακόλουθου ειδώλου:"
+
+msgid "Cannot find partition's associated partclone image"
+msgstr ""
+"Δεν είναι δυνατή η εύρεση του συσχετισμένου διαμερίσματος ειδώλου partclone"
+
+msgid "This can happen when loading images which Clonezilla was unable to completely backup."
+msgstr "Αυτό μπορεί να συμβεί κατά τη φόρτωση ειδώλων για τις οποίες το Clonezilla δεν ολοκλήρωσε επιτυχώς τη διαδικασία των αντιγράφων ασφαλείας."
+
+msgid "Note: This image format cannot distinguish between failed partclone backup and a user who chose not to backup a partition."
+msgstr ""
+"Σημείωση: Αυτή η μορφή εικόνας δεν μπορεί να διακρίνει μεταξύ αποτυχημένου "
+"αντιγράφου ασφαλείας partclone και ενός χρήστη που επέλεξε να μην "
+"δημιουργήσει αντίγραφα ασφαλείας ενός διαμερίσματος."
+
+msgid "Any other filesystems within the image should be restorable as normal."
+msgstr "Οποιαδήποτε άλλα συστήματα αρχείων μέσα στο είδωλο θα πρέπει να είναι δυνατό να αποκατασταθούν κανονικά."
+
+msgid "Needs decryption"
+msgstr "Απαιτείται αποκρυπτογράφηση"
+
+msgid "Unknown filesystem"
+msgstr "Άγνωστο Σύστημα Αρχείων"
+
+#, python-brace-format
+msgid "The backup's extended partition information is empty. If the backup contains an extended partition this will not restore correctly. All data is still fully recoverable but manual intervention is required to fully restore data within the extended partition. Please consult {url} for information and assistance."
+msgstr ""
+"Οι πληροφορίες του αντιγράφου ασφαλείας του εκτεταμένου διαμερίσματος είναι "
+"κενές. Εάν το αντίγραφο ασφαλείας περιέχει ένα εκτεταμένο διαμέρισμα, αυτό "
+"δεν θα αποκατασταθεί σωστά. Όλα τα δεδομένα εξακολουθούν να είναι πλήρως "
+"ανακτήσιμα, αλλά απαιτείται χειροκίνητη παρέμβαση για την πλήρη επαναφορά "
+"δεδομένων εντός του εκτεταμένου διαμερίσματος. Συμβουλευτείτε το {url} για "
+"πληροφορίες και βοήθεια."
+
+msgid "The backup's bootloader data is shorter than expected. If the backup contained certain bootloaders like GRUB, during a restore operation Rescuezilla will try and re-install the bootloader."
+msgstr ""
+"Τα δεδομένα εκκίνησης του αντιγράφου ασφαλείας είναι μικρότερα από τα "
+"αναμενόμενα. Εάν το αντίγραφο ασφαλείας περιείχε ορισμένους φορτωτές "
+"εκκίνησης όπως το GRUB, κατά τη διάρκεια μιας επιχείρησης επαναφοράς "
+"Rescuezilla θα προσπαθήσει να εγκαταστήσει ξανά το φορτωτή εκκίνησης."
+
+msgid "Step 4: Select Destination Folder"
+msgstr "Βήμα 4: Επιλέξτε Φάκελο Προορισμού"
+
+msgid "Click <b>Browse</b> to select the folder on the destination drive where your new backup image will be saved.\n"
+"\n"
+"The folder a backup is saved in is usually a description of the computer, e.g. <b>office1</b> or <b>zack-laptop</b>."
+msgstr "Κάντε κλικ στο κουμπί <b>Αναζήτηση</b> για να επιλέξετε το φάκελο στη μονάδα δίσκου προορισμού όπου θα αποθηκευτεί το νέο είδωλο αντιγράφου ασφαλείας.\n"
+"\n"
+"Ο φάκελος στον οποίο αποθηκεύεται είναι συνήθως μια περιγραφή του υπολογιστή, πχ. <b>office1</b> or <b>zack-laptop</b>."
+
+#, python-brace-format
+msgid "You must select a folder inside {location}"
+msgstr "Πρέπει να επιλέξετε ένα φάκελο μέσα στο {location}"
+
+msgid "Please select a different folder."
+msgstr "Παρακαλώ επιλέξτε διαφορετικό φάκελο."
+
+msgid "The table below lists the backup images that are already in this folder (if any)."
+msgstr "Ο ακόλουθος πίνακας εμφανίζει τα είδωλα των αντιγράφων ασφαλείας που βρίσκονται ήδη σε αυτόν το φάκελο (εάν υπάρχουν)."
+
+msgid "Browse…"
+msgstr "Αναζήτηση…"
+
+msgid "Filename"
+msgstr "Όνομα Αρχείου"
+
+msgid "Size"
+msgstr "Μέγεθος"
+
+msgid "Last modified"
+msgstr "Τελευταία τροποίηση"
+
+msgid "When you are happy with the destination folder, click <b>Next</b>."
+msgstr "Εάν συμφωνείτε με το φάκελο προορισμού, κάντε κλικ στο κουμπί <b>Επόμενο</b>."
+
+msgid "Step 5: Name Your Backup"
+msgstr "Βήμα 5: Δώστε όνομα στο αντίγραφο ασφαλείας σας"
+
+msgid "Provide a unique name for this backup image, such as the date.  Today's date is automatically entered for you below.\n"
+"\n"
+"You may only use letters, numbers, and dashes in your backup name."
+msgstr "Δώστε στο είδωλο αντιγράφου ασφαλείας ένα μοναδικό όνομα, όπως η ημερομηνία. Η σημερινή ημερομηνία εισάγεται αυτόματα.\n"
+"\n"
+"Μπορείτε να χρησιμοποιήσετε μόνο γράμματα, αριθμούς και παύλες στο όνομα των αντιγράφων ασφαλείας."
+
+msgid "Optional: Provide a short description."
+msgstr "Προαιρετικό: Δώστε μια σύντομη περιγραφή."
+
+msgid "Step 6: Customize Compression Settings"
+msgstr "Βήμα 6: Προσαρμογή Ρυθμίσεων Συμπίεσης"
+
+msgid "Customize image compression settings. <b>Don't make any changes if you are unsure.</b>"
+msgstr ""
+"Προσαρμογή ρυθμίσεων συμπίεσης εικόνας. <b>Μην κάνετε αλλαγές εάν δεν είστε "
+"σίγουροι.</b>"
+
+msgid "Compression format: "
+msgstr "Μορφή συμπίεσης: "
+
+msgid "gzip"
+msgstr "gzip"
+
+msgid "default"
+msgstr "προεπιλογή"
+
+msgid "zstandard"
+msgstr "zstandard"
+
+msgid "Uncompressed (Suitable for use with Image Explorer)"
+msgstr "Ασυμπίεστο (Κατάλληλο για χρήση με την Εξερεύνηση Εικόνων)"
+
+msgid "Compression level: "
+msgstr "Επίπεδο συμπίεσης: "
+
+msgid "Fastest"
+msgstr "Ταχύτερο"
+
+msgid "Best"
+msgstr "Καλύτερο"
+
+msgid "When you are happy with the compression settings, click <b>Next</b>."
+msgstr ""
+"Όταν είστε ικανοποιημένοι με τις ρυθμίσεις συμπίεσης, κάντε κλικ στην "
+"επιλογή <b>Επόμενο</b>."
+
+msgid "Step 7: Confirm Backup Configuration"
+msgstr "Βήμα 6: Επιβεβαιώστε τη ρύθμιση παραμέτρων των αντιγράφων ασφαλείας"
+
+msgid "Source drive"
+msgstr "Μονάδα δίσκου προέλευσης"
+
+msgid "Backing up the following partition(s)"
+msgstr "Δημιουργία αντιγράφου ασφαλείας για το ακόλουθο διαμέρισμα"
+
+#, python-brace-format
+msgid "The backup image will be written into folder {dest_dir} on {description}"
+msgstr ""
+"Το είδωλο αντιγράφου ασφαλείας θα εγγραφεί στο φάκελο {dest_dir} σε "
+"{description}"
+
+msgid "Confirm the following backup configuration."
+msgstr "Επιβεβαιώστε την ακόλουθη ρύθμιση παραμέτρων των αντιγράφων ασφαλείας."
+
+msgid "On successful completion of the task, perform the following action: "
+msgstr ""
+"Μετά την επιτυχή ολοκλήρωση της εργασίας, εκτελέστε την ακόλουθη ενέργεια: "
+
+msgid "Do nothing"
+msgstr "Μην κάνετε τίποτα"
+
+msgid "Shutdown"
+msgstr "Τερματισμός"
+
+msgid "Reboot"
+msgstr "Επανεκκίνηση"
+
+msgid "Rescue: Ignore filesystem inconsistencies and bad sectors"
+msgstr ""
+"Διάσωση: Αγνοήστε τις ασυνέπειες του συστήματος αρχείων και τους "
+"προβληματικούς τομείς"
+
+msgid "<b>Enabling \"Rescue\" may suppress important errors. Use with caution.</b>"
+msgstr ""
+"<b>Η ενεργοποίηση της \"Διάσωσης\" μπορεί να καταστείλει σημαντικά λάθη. "
+"Χρησιμοποιήστε με προσοχή.</b>"
+
+msgid "To start the backup, click <b>Next</b>."
+msgstr "Για την εκκίνηση της δημιουργίας αντιγράφου ασφαλείας, επιλέξτε <b>Επόμενο</b>."
+
+msgid "Step 8: Creating Backup Image"
+msgstr "Βήμα 7: Δημιουργία Ειδώλου Αντιγράφου Ασφαλείας"
+
+msgid "Backing up your system to the location you selected.  This may take an hour or more depending on the speed of your computer and the amount of data."
+msgstr "Δημιουργία των αντιγράφων ασφαλείας του συστήματός σας στη θέση που επιλέξατε. Αυτό μπορεί να διαρκέσει μια ώρα ή περισσότερο, ανάλογα με την ταχύτητα του υπολογιστή σας και το μέγεθος των δεδομένων."
+
+#, python-brace-format
+msgid "Saving: {file}"
+msgstr "Αποθήκευση: {file}"
+
+#, python-brace-format
+msgid "Backup {partition_name} containing filesystem {filesystem} to {destination}"
+msgstr "Αντίγραφο Ασφαλείας {partition_name} περιέχει αρχείο συστήματος {filesystem} σε {destination}"
+
+msgid "Summary of Backup"
+msgstr "Σύνοψη Δημιουργίας Αντιγράφου Ασφαλείας"
+
+msgid "Confirm the backup summary."
+msgstr "Επιβεβαιώστε τη Σύνοψη Αντιγράφου Ασφαλείας."
+
+msgid "Backup Summary"
+msgstr "Σύνοψη Αντιγράφου Ασφαλείας"
+
+msgid "An operation is in progress. Do you wish to cancel?"
+msgstr "Μια λειτουργία βρίσκεται σε εξέλιξη. Θέλετε να την ακυρώσετε;"
+
+msgid "Operation cancelled by user."
+msgstr "Η διαδικασία των Αντιγράφου Ασφαλείας ακυρώθηκε από τον χρήστη."
+
+msgid "Rescue option is enabled."
+msgstr "Η επιλογή διάσωσης είναι ενεργοποιημένη."
+
+msgid "Error creating backup: "
+msgstr "Παρουσιάστηκε σφάλμα κατά τη δημιουργία αντιγράφου ασφαλείας: "
+
+msgid "Failed to write destination file. Please confirm it is valid to create the provided file path, and try again."
+msgstr "Απέτυχε η εγγραφή του αρχείου προορισμού. Επιβεβαιώστε ότι είναι δυνατή η δημιουργία της παρεχόμενης διαδρομής αρχείου και προσπαθήστε ξανά."
+
+#, python-brace-format
+msgid "Successful backup of swap partition {partition_name}"
+msgstr "Επιτυχής δημιουργία αντιγράφου ασφαλείας του διαμερίσματος ανταλλαγής {partition_name}"
+
+#, python-brace-format
+msgid "<b>Failed to backup partition</b> {partition_name}"
+msgstr "<b>Ανεπιτυχής δημιουργία αντιγράφου ασφαλείας του διαμερίσματος</b> {partition_name}"
+
+#, python-brace-format
+msgid "Successful backup of partition {partition_name}"
+msgstr "Επιτυχής δημιουργία αντιγράφου ασφαλείας του διαμερίσματος {partition_name}"
+
+msgid "Backup saved successfully."
+msgstr "Το Αντίγραφο Ασφαλείας αποθηκεύτηκε."
+
+msgid "Backup succeeded with some errors:"
+msgstr "Η δημιουργία αντιγράφων ασφαλείας ολοκληρώθηκε με ορισμένα σφάλματα:"
+
+msgid "Backup operation failed:"
+msgstr "Η διαδικασία δημιουργίας αντιγράφου ασφαλείας απέτυχε:"
+
+msgid "User requested operation to stop."
+msgstr "Ο χρήστης ζήτησε να διακοπεί η λειτουργία."
+
+#, python-brace-format
+msgid "Operation took {num_minutes} minutes."
+msgstr "Η διαδικασία ολοκληρώθηκε σε {num_minutes} λεπτά."
+
+msgid "To start a new session, click <b>Next</b>"
+msgstr ""
+"Για να ξεκινήσετε μια νέα περίοδο λειτουργίας, κάντε κλικ στο <b>Επόμενο</b>"
+
+msgid "Step 1: Select Image Location"
+msgstr "Βήμα 1: Επιλογή Τοποθεσίας Ειδώλου"
+
+msgid "Where are the image files stored?"
+msgstr "Πού αποθηκεύονται τα αρχεία ειδώλων;"
+
+msgid "Select the partition which contains the image files:"
+msgstr "Επιλέξτε το διαμέρισμα που περιέχει τα αρχεία ειδώλων:"
+
+msgid "Step 2: Select Backup Image"
+msgstr "Βήμα 2: Επιλέξτε Είδωλο Αντιγράφου Ασφαλείας"
+
+msgid "Click <b>Browse</b> to select the folder containing image files."
+msgstr ""
+"Κάντε κλικ στο <b>Εύρεση</b> για να επιλέξετε το φάκελο που περιέχει αρχεία "
+"ειδώλων."
+
+msgid "Select the image file to restore."
+msgstr "Επιλέξτε το αρχείο ειδώλου για επαναφορά."
+
+msgid "Step 3: Select Drive To Restore"
+msgstr "Βήμα 3: Επιλέξτε Μονάδα Δίσκου Για Επαναφορά"
+
+msgid "Select the destination drive to restore with the selected image."
+msgstr "Επιλέξτε τη μονάδα δίσκου προορισμού στην οποία θέλετε να αντικαταστήσετε και να επαναφέρετε το επιλεγμένο είδωλο."
+
+msgid "Step 4: Select Partitions to Restore"
+msgstr "Βήμα 4: Επιλέξτε τα Διαμερίσματα Προς Επαναφορά"
+
+msgid "Select which partitions from the backup image to restore, and whether to overwrite the partition table. <b>Leave everything selected to completely restore the destination drive.</b>"
+msgstr ""
+"Επιλέξτε ποια διαμερίσματα από το αντίγραφο ασφαλείας θα επαναφέρετε και εάν "
+"θα αντικαταστήσετε τον πίνακα διαμερισμάτων. <b>Αφήστε τα όλα επιλεγμένα για "
+"να επαναφέρετε πλήρως τη μονάδα δίσκου προορισμού.</b>"
+
+msgid "Selected image"
+msgstr "Επιλεγμένο είδωλο"
+
+msgid "Destination partition"
+msgstr "Διαμέρισμα προορισμού"
+
+msgid "Overwrite partition table"
+msgstr "Αντικατάσταση πίνακα διαμερισμάτων"
+
+msgid "You will be overwriting the partition table."
+msgstr "Θα αντικαταστήσετε τον πίνακα διαμερισμάτων."
+
+msgid "The \"destination partition\" column has been updated using the information stored within the backup image.\n\n<b>If partitions have been resized, new partitions added, or additional operating systems installed <i>since the backup image was created</i>, then the destination drive's partition table will not match the backup image, and overwriting the destination drive's partition table will render these resized and additional partitions permanently inaccessible.</b> If you have not modified the partition table in such a way since creating this backup then overwriting the partition table is completely safe and will have no negative effects."
+msgstr ""
+"Η στήλη \"διαμέρισμα προορισμού\" ενημερώθηκε χρησιμοποιώντας τις "
+"πληροφορίες που είναι αποθηκευμένες στο είδωλο αντιγράφου ασφαλείας.\n"
+"\n"
+"<b>Εάν έχει αλλάξει το μέγεθος των διαμερισμάτων, έχουν προστεθεί νέα "
+"διαμερίσματα ή εγκατασταθεί νέα λειτουργικά συστήματα <i>από τη δημιουργία "
+"ειδώλου</i>, τότε ο πίνακας διαμερισμάτων της μονάδας δίσκου προορισμού δεν "
+"θα ταιριάζει με το είδωλο αντιγράφου ασφαλείας, και η αντικατάσταση του "
+"πίνακα διαμερισμάτων της μονάδας δίσκου προορισμού θα καταστήσει μη "
+"προσβάσιμα μόνιμα αυτά τα πρόσθετα και με διαφορετικό μέγεθος διαμερίσματα.</"
+"b>Εάν δεν έχετε τροποποιήσει τον πίνακα διαμερισμάτων με τέτοιο τρόπο από τη "
+"δημιουργία αυτού του αντιγράφου ασφαλείας, στη συνέχεια, η αντικατάσταση του "
+"πίνακα διαμερισμάτων είναι απολύτως ασφαλής και δεν θα έχει αρνητικές "
+"επιπτώσεις."
+
+msgid "You will <b>not</b> be overwriting the partition table."
+msgstr "<b>Δεν</b> θα αντικαταστήσετε τον πίνακα διαμερισμάτων."
+
+msgid "The source does not contain a partition table."
+msgstr "Η πηγή δεν περιέχει πίνακα διαμερισμάτων."
+
+msgid "The \"destination partition\" column has been updated with destination drive's existing partition table information.\n\n<b>The destination partition column can be modified as a dropdown menu. Incorrectly mapping the destination partitions may cause operating systems to no longer boot.</b> If you are unsure of the mapping, consider if it's more suitable to instead overwrite the partition table."
+msgstr "Η στήλη \"διαμέρισμα προορισμού\" έχει ενημερωθεί με τις υπάρχουσες πληροφορίες πίνακα διαμερισμάτων της μονάδας δίσκου προορισμού.\n\n<b>Η στήλη διαμερίσματος προορισμού μπορεί να τροποποιηθεί ως αναπτυσσόμενο μενού. Η εσφαλμένη αντιστοίχιση των διαμερισμάτων προορισμού ενδέχεται να προκαλέσει τη μη εκκίνηση.</b> Εάν δεν είστε βέβαιοι για την αντιστοίχιση, εξετάστε εάν είναι πιο κατάλληλο να αντικαταστήσετε τον πίνακα διαμερισμάτων."
+
+msgid "No destination partition selected. Use the destination partition drop-down menu to select the destination"
+msgstr "Δεν έχει επιλεγεί διαμέρισμα προορισμού. Χρησιμοποιήστε το αναπτυσσόμενο μενού διαμερίσματος προορισμού για να επιλέξετε τον προορισμό"
+
+msgid "Not restoring this partition"
+msgstr "Μη επαναφορά αυτού του διαμερίσματος"
+
+msgid "When you are ready to continue, click <b>Next</b>."
+msgstr ""
+"Όταν είστε έτοιμοι να συνεχίσετε, κάντε κλικ στην επιλογή <b>Επόμενο</b>."
+
+msgid "Scanning and unmounting any Logical Volume Manager (LVM) Logical Volumes…"
+msgstr "Σάρωση και αποσύνδεση Λογικών Τόμων Διαχείρισης (LVM)…"
+
+#, python-brace-format
+msgid "The source partition table's final partition ({source}: {source_size} bytes) must refer to a region completely within the destination disk ({destination_size} bytes)."
+msgstr ""
+"Το τελικό διαμέρισμα του πίνακα διαμερισμάτων προέλευσης ({source}: "
+"{source_size}) πρέπει να αναφέρεται σε μια περιοχή μέσα στο δίσκο προορισμού "
+"({destination_size})."
+
+#, python-brace-format
+msgid "Rescuezilla cannot yet automatically shrink partitions to restore from large disks to smaller disks. The final partition currently must always completely reside within the destination disk.\n"
+"\n"
+"Currently the only way to restore to disks smaller than original is to first use GParted Partition Editor to shrink the final partition of the original disk before making a new backup image. Please read the following instructions for more information:\n"
+"\n"
+"{url}"
+msgstr ""
+"Το Rescuezilla δεν μπορεί ακόμα να συρρικνώσει αυτόματα τα διαμερίσματα για "
+"επαναφορά από μεγάλους δίσκους σε μικρότερους. Το τελικό διαμέρισμα πρέπει "
+"να βρίσκεται πάντα πλήρως μέσα στο δίσκο προορισμού.\n"
+"\n"
+"Προς το παρόν, ο μόνος τρόπος επαναφοράς σε δίσκους μικρότερους από τους "
+"αρχικούς είναι να χρησιμοποιήσετε πρώτα το GParted Partition Editor για να "
+"συρρικνώσετε το τελικό διαμέρισμα του αρχικού δίσκου πριν δημιουργήσετε ένα "
+"νέο είδωλο αντιγράφων ασφαλείας. Διαβάστε τις ακόλουθες οδηγίες για "
+"περισσότερες πληροφορίες:\n"
+"\n"
+"{url}"
+
+msgid "Step 5: Confirm Restore Configuration"
+msgstr "Βήμα 5: Επιβεβαίωση Ρύθμισης Παραμέτρων Επαναφοράς"
+
+msgid "Confirm the following restore configuration."
+msgstr "Επιβεβαιώστε τη ρύθμιση παραμέτρων επαναφοράς."
+
+#, python-brace-format
+msgid "Are you sure you want to restore the backup to {destination_drive}? Doing so will permanently overwrite data on this drive!"
+msgstr "Είστε βέβαιοι ότι επιθυμείτε την επαναφορά του αντιγράφου ασφαλείας στο {destination_drive}; Με αυτόν τον τρόπο θα αντικατασταθούν οριστικά τα δεδομένα σε αυτήν τη μονάδα δίσκου!"
+
+msgid "Source image"
+msgstr "Είδωλο προέλευσης"
+
+msgid "Destination drive"
+msgstr "Μονάδα δίσκου προορισμού"
+
+msgid "Restoring the following partitions"
+msgstr "Επαναφορά των ακόλουθων διαμερισμάτων"
+
+msgid "WILL BE OVERWRITING PARTITION TABLE"
+msgstr "ΘΑ ΑΝΤΙΚΑΤΑΣΤΑΘΕΙ Ο ΠΙΝΑΚΑΣ ΔΙΑΜΕΡΙΣΜΆΤΩΝ"
+
+msgid "Will <b>NOT</b> be overwriting partition table"
+msgstr "<b>Δεν</b> θα αντικατασταθεί ο πίνακας διαμερισμάτων"
+
+msgid "To start the restore, click <b>Next</b>."
+msgstr "Για να ξεκινήσετε την επαναφορά, κάντε κλικ στο <b>Επόμενο</b>."
+
+msgid "Restoring From Backup"
+msgstr "Επαναφορά Από Αντίγραφο Ασφαλείας"
+
+msgid "Restoring your system from the image you selected.  This may take an hour or more depending on the speed of your computer and the amount of data."
+msgstr "Γίνεται επαναφορά του συστήματός σας από το επιλεγμένο είδωλο. Αυτό μπορεί να διαρκέσει μια ώρα ή περισσότερο, ανάλογα με την ταχύτητα του υπολογιστή σας και το μέγεθος των δεδομένων."
+
+msgid "Refreshing partition table"
+msgstr "Ανανέωση πίνακα διαμερισμάτων"
+
+#, python-brace-format
+msgid "Restoring {description} to {destination_partition} ({destination_description})"
+msgstr "Επαναφορά {description} στο {destination_partition} ({destination_description})"
+
+msgid "Synchronizing disks…"
+msgstr "Συγχρονισμός δίσκων…"
+
+#, python-brace-format
+msgid "Querying hard drive geometry of {device}"
+msgstr "Ερώτημα για γεωμετρία σκληρού δίσκου του {device}"
+
+#, python-brace-format
+msgid "Probing {device} with {app}"
+msgstr "Έλεγχος {device} με {app}"
+
+#, python-brace-format
+msgid "Growing filesystem {partition} ({filesystem}). This may take a while…"
+msgstr ""
+"Ανάπτυξη συστήματος αρχείων {partition} ({filesystem}). Αυτό μπορεί να "
+"διαρκέσει λίγο…"
+
+#, python-brace-format
+msgid "Resizing partition {partition} ({filesystem}) failed: {msg}"
+msgstr ""
+"Η αλλαγή μεγέθους διαμερίσματος {partition} ({filesystem}) απέτυχε: {msg}"
+
+#, python-brace-format
+msgid "Successfully adjusted NTFS filesystem geometry of {ntfs_device} using values from {geometry_source}"
+msgstr ""
+"Επιτυχής προσαρμογή γεωμετρίας συστήματος αρχείων NTFS {ntfs_device} "
+"χρησιμοποιώντας τιμές από {geometry_source}"
+
+#, python-brace-format
+msgid "Failed to adjust NTFS filesystem geometry of {ntfs_device}"
+msgstr ""
+"Απέτυχε η προσαρμογή γεωμετρίας του συστήματος αρχείων NTFS {ntfs_device}"
+
+msgid "Removing udev MAC address records (if any)"
+msgstr "Κατάργηση εγγραφών διευθύνσεων MAC udev (εάν υπάρχουν)"
+
+msgid "Re-installing syslinux (if any)"
+msgstr "Επανεγκατάσταση syslinux (εάν υπάρχει)"
+
+msgid "Successfully re-installed syslinux bootloader"
+msgstr ""
+"Επιτυχημένη επανεγκατάσταση του προγράμματος φόρτωσης εκκίνησης syslinux"
+
+msgid "Re-installing GRUB bootloader (if any)"
+msgstr "Επανεγκατάσταση του φορτωτή εκκίνησης GRUB (εάν υπάρχει)"
+
+msgid "Successfully re-installed GRUB bootloader"
+msgstr "Επιτυχημένη επανεγκατάσταση του προγράμματος φόρτωσης εκκίνησης GRUB"
+
+msgid "Did not update GRUB bootloader (if any)"
+msgstr "Δεν ενημερώθηκε το πρόγραμμα φόρτωσης εκκίνησης GRUB (εάν υπάρχει)"
+
+msgid "Updating initramfs (if any)"
+msgstr "Ενημέρωση initramfs (εάν υπάρχουν)"
+
+msgid "Successfully updated initramfs"
+msgstr "Επιτυχής ενημέρωση initramfs"
+
+msgid "Updating EFI NVRAM…"
+msgstr "Ενημέρωση EFI NVRAM…"
+
+msgid "Successfully updated EFI NVRAM"
+msgstr "Επιτυχής ενημέρωση EFI NVRAM"
+
+msgid "Error restoring image: "
+msgstr "Παρουσιάστηκε σφάλμα κατά την επαναφορά του ειδώλου: "
+
+msgid "Could not restore sfdisk partition table as file has zero length: "
+msgstr "Δεν ήταν δυνατή η επαναφορά του πίνακα διαμερισμάτων sfdisk, επειδή το αρχείο έχει μηδενικό μήκος: "
+
+msgid "Successfully restored partition table."
+msgstr "Η επαναφορά του πίνακα διαμερισμάτων ολοκληρώθηκε με επιτυχία."
+
+msgid "Failed to refresh the devices' partition table. This can happen if another process is accessing the partition table."
+msgstr "Η ανανέωση του πίνακα διαμερισμάτων των συσκευών απέτυχε. Αυτό μπορεί να συμβεί εάν μια άλλη διεργασία έχει πρόσβαση στον πίνακα διαμερισμάτων."
+
+#, python-brace-format
+msgid "Unable to restore partition {destination_partition} because there is no saved image associated with: {description}."
+msgstr "Δεν είναι δυνατή η επαναφορά του διαμερίσματος {destination_partition}, επειδή δεν υπάρχει αποθηκευμένο είδωλο συσχετισμένο με: {description}."
+
+msgid "This may occur if Clonezilla was originally unable to backup this partition."
+msgstr "Αυτό μπορεί να συμβεί εάν το Clonezilla αρχικά απέτυχε να δημιουργήσει αντίγραφο ασφαλείας αυτού του διαμερίσματος."
+
+#, python-brace-format
+msgid "Error restoring partition {image_key} to {destination_partition}."
+msgstr "Παρουσιάστηκε σφάλμα κατά την επαναφορά του διαμερίσματος {image_key} στο {destination_partition}."
+
+#, python-brace-format
+msgid "Successfully restored image partition {image} to {destination_partition}"
+msgstr "Η επαναφορά του διαμερίσματος ειδώλου {image} ολοκληρώθηκε με επιτυχία στο {destination_partition}"
+
+msgid "Summary of Restore"
+msgstr "Σύνοψη της Επαναφοράς"
+
+msgid "Restore Summary"
+msgstr "Σύνοψη Επαναφοράς"
+
+msgid "Confirm the restore summary."
+msgstr "Επιβεβαιώστε τη σύνοψη επαναφοράς."
+
+msgid "Backup restored successfully."
+msgstr "Η επαναφορά του αντιγράφου ασφαλείας ολοκληρώθηκε με επιτυχία."
+
+msgid "Image Explorer\n"
+"      (beta)"
+msgstr ""
+"Εξερεύνηση Εικόνων\n"
+"      (βήτα)"
+
+msgid "Image Explorer (beta)"
+msgstr "Εξερεύνηση Εικόνων (βήτα)"
+
+msgid "Select the image file to explore"
+msgstr "Επιλέξτε το αρχείο ειδώλου για εξερεύνηση"
+
+msgid "Step 3: Select Partition to Explore"
+msgstr "Βήμα 3: Επιλογή Διαμερίσματος για Εξερεύνηση"
+
+msgid "Select the partition to access files from."
+msgstr "Επιλέξτε το διαμέρισμα από το οποίο θα αποκτήσετε πρόσβαση σε αρχεία."
+
+msgid "Click <b>Mount</b> to mount the backup image (as read-only)."
+msgstr ""
+"Κάντε κλικ στο <b>Λειτουργία προσβασιμότητας αρχείων</b> για να τοποθετήσετε "
+"την εικόνα δημιουργίας αντιγράφων ασφαλείας (μόνο για ανάγνωση)."
+
+msgid "Mount"
+msgstr "Λειτουργία προσβασιμότητας αρχείων"
+
+msgid "Mounting as read-only…"
+msgstr "Λειτουργία προσβασιμότητας αρχείων μόνο για ανάγνωση…"
+
+msgid "Unmount"
+msgstr "Λειτουργία μη προσβασιμότητας αρχείων"
+
+msgid "Once the partition has been mounted, click <b>Open in file manager</b> to access your files."
+msgstr ""
+"Μόλις ολοκληρωθεί η λειτουργία προσβασιμότητας αρχείων στο διαμέρισμα, κάντε "
+"κλικ στην επιλογή <b>Άνοιγμα στη Διαχείριση αρχείων</b> για να αποκτήσετε "
+"πρόσβαση στα αρχεία σας."
+
+msgid "Open in file manager"
+msgstr "Άνοιγμα στη διαχείριση αρχείων"
+
+msgid "Verify"
+msgstr "Επαλήθευση"
+
+msgid "Select one or more images to verify."
+msgstr "Επιλέξτε ένα ή περισσότερα είδωλα για επαλήθευση."
+
+msgid "To begin verification, click <b>Next</b>."
+msgstr "Για να ξεκινήσετε την επαλήθευση, κάντε κλικ στο<b>Next</b>."
+
+msgid "Verifying Image"
+msgstr "Επαλήθευση Ειδώλου"
+
+msgid "Verifying the selected image(s)."
+msgstr "Επαλήθευση των επιλεγμένων ειδώλων."
+
+#, python-brace-format
+msgid "Verifying {image_name}"
+msgstr "Επαλήθευση {image_name}"
+
+msgid "Summary of Verification"
+msgstr "Περίληψη Επαλήθευσης"
+
+msgid "Confirm the verification summary."
+msgstr "Επιβεβαιώστε τη σύνοψη επαλήθευσης."
+
+msgid "Verification Summary"
+msgstr "Σύνοψη επαλήθευσης"
+
+msgid "To verify another image, click <b>Back</b>."
+msgstr "Για να επαληθεύσετε ένα άλλο είδωλο, κάντε κλικ στο <b>Back</b>."
+
+msgid "✔"
+msgstr "✔"
+
+msgid "❌"
+msgstr "❌"
+
+msgid "MBR backup appears correct."
+msgstr "Το αντίγραφο ασφαλείας MBR φαίνεται σωστό."
+
+msgid "No partition table found."
+msgstr "Δεν βρέθηκε πίνακας διαμερισμάτων."
+
+msgid "Sfdisk partition table file is empty or missing."
+msgstr "Το αρχείο πίνακα διαμερισμάτων Sfdisk είναι κενό ή λείπει."
+
+msgid "Sfdisk partition table file is present."
+msgstr "Το αρχείο πίνακα διαμερισμάτων Sfdisk υπάρχει."
+
+msgid "Unable to verify."
+msgstr "Δεν είναι δυνατή η επαλήθευση."
+
+#, python-brace-format
+msgid "{partition}: filesystem image successfully verified."
+msgstr "{partition}: Η εικόνα του συστήματος αρχείων επαληθεύτηκε με επιτυχία."

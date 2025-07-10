@@ -1,0 +1,27 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Rescuezilla
+Name[de]=Rescuezilla
+Name[es]=Rescuezilla
+Name[fr]=Rescuezilla
+Name[id]=Rescuezilla
+Name[it]=Rescuezilla
+Name[pt]=Rescuezilla
+Name[pt_BR]=Rescuezilla
+Name[ru]=Rescuezilla
+Comment=System backup and restore utility
+Comment[de]=System-Backup- und Wiederherstellungsprogramm
+Comment[es]=Utilidad de copia de seguridad y restauración del sistema
+Comment[fr]=Utilitaire de sauvegarde et de restauration du système
+Comment[id]=Utilitas cadangan dan pemulihan sistem
+Comment[it]=Utilità di backup e ripristino del sistema
+Comment[pt]=Utilitário de backup e restauração do sistema
+Comment[pt_BR]=Utilitário de backup e restauração do sistema
+Comment[ru]=Утилита резервного копирования и восстановления системы
+Keywords=backup;restore;disk;clone;image;
+Exec=pkexec /usr/sbin/rescuezilla
+Icon=rescuezilla
+Terminal=false
+Categories=GTK;System;
+X-Ayatana-Appmenu-Show-Stubs=False
