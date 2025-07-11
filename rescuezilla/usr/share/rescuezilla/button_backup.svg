@@ -4,8 +4,8 @@
    width="128"
    height="128"
    id="svg4231"
-   sodipodi:docname="backup.svg"
-   inkscape:version="1.2 (dc2aedaf03, 2022-05-15)"
+   sodipodi:docname="button_backup.svg"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,14 +24,14 @@
      inkscape:pagecheckerboard="0"
      showgrid="false"
      inkscape:zoom="5.0234045"
-     inkscape:cx="0.29860227"
+     inkscape:cx="0.19906818"
      inkscape:cy="32.746716"
      inkscape:window-width="2560"
-     inkscape:window-height="1252"
+     inkscape:window-height="1369"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4231"
+     inkscape:current-layer="g52805"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
@@ -1027,11 +1027,6 @@
        id="rect5505-21-1-5-0-6-5-1-2-5-1-7-7"
        style="color:#000000;font-variation-settings:normal;display:inline;overflow:visible;visibility:visible;opacity:0.15;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:url(#linearGradient121764);stroke-width:0.999985;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate;stop-color:#000000"
        d="m 44.939447,24.247641 -1.226435,-2.658497 c -0.32322,-0.701586 -0.617349,-1.309466 -0.967603,-1.6451 -0.350257,-0.335635 -0.744934,-0.444049 -1.43681,-0.444049 H 24.691837 c -0.692786,0 -1.111591,0.114703 -1.46305,0.448721 -0.351458,0.334018 -0.626394,0.931477 -0.938589,1.633938 v 9.5e-4 l -1.239155,2.664037" />
-    <path
-       id="path87"
-       style="overflow:visible;opacity:0.3;fill:url(#n);marker:none"
-       overflow="visible"
-       d="m 31.37,18.000001 h 3.3 l 0.33,6.331 v 3.071 c -0.39,0 -0.78,-0.532 -1.17,-0.532 -0.398,0 -0.797,0.532 -1.196,0.532 -0.322,0 -0.643,-0.466 -0.964,-0.466 -0.21,0 -0.42,0.466 -0.63,0.466 0,0 -0.09,-1.325 0,-3.07 z" />
   </g>
   <g
      id="g53242"
